@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import mondaySdk from "monday-sdk-js";
-import Clock from "./Clock";
+import Clock from "./modules/Clock";
 const monday = mondaySdk();
 
 class App extends React.Component {
